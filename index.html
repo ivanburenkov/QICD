@@ -149,7 +149,7 @@
         }
 
         const traceHomodyne = { x: naLine, y: homodyneData, mode: 'lines', name: 'Homodyne Baseline', line: {color: 'red', dash: 'dash', width: 3} };
-        const traceSqueezed = { x: naLine, y: squeezedData, mode: 'lines', name: 'Squeezing-Augmented', line: {color: 'red', width: 3} };
+        const traceSqueezed = { x: naLine, y: squeezedData, mode: 'lines', name: 'Squeezed', line: {color: 'red', width: 3} };
         const traceDisplacement = { x: naLine, y: displacementData, mode: 'lines', name: 'Displacement', line: {color: 'blue', width: 3} };
 
         Plotly.react('linePlot', [traceHomodyne, traceSqueezed, traceDisplacement], {
